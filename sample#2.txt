@@ -1,0 +1,35 @@
+H1RR0033EDIGEN  2019073000:00:08XPRT  XPRTEDICXEDIBKK     930655110   O2EDIGEN      0000
+@RPRNT930655110   930655110       XEDIFTP 201907300000   NOPRINT NIKEPDX EDR        0001
+@D                                                                                  0002
+@D                                                                                  0003
+@D             * * *    E D I    R E J E C T I O N    L O G    * * *                0004
+@D                                                                                  0005
+@DExpeditors EDI Translator Log                                                     0006
+@D                                                                                  0007
+@DDate batch received:  20190730                                                    0008
+@D                                                                                  0009
+@DDestination:          Nike                                                        0010
+@D                                                                                  0011
+@DEDI Document:         Scanner Flatfile                                            0012
+@D                                                                                  0013
+@DCreate User:          FTP                                                         0014
+@D                                                                                  0015
+@DCreate Date:          07/30/2019   Create Time:     00:00:43                      0016
+@D                                                                                  0017
+@DOrigin Branch:        BKK        Event code:      LOG                             0018
+@D                                                                                  0019
+@D                                                                                  0020
+@D===========  EDI TRANSLATION REJECTIONS ===========                               0021
+@D                                                                                  0022
+@DERROR:  A Scan file for PO 4506336494 linked to Onhand number F841187495 has      0023
+@D        been received, but a Scan file for this PO was already successfully       0024
+@D        processed for this Onhand.  If the same Scan file for PO 4506336494       0025
+@D        must be processed again, enter the SND event on the HIST screen at the    0026
+@D        Onhand level to re-process this Scan file.  If further assistance is      0027
+@D        needed, please contact the EDI Helpdesk.                                  0028
+@D                                                                                  0029
+@D                                                                                  0030
+@D                                                                                  0031
+@DThe EDIgen file number is: 930655110                                              0032
+@D                                                                                  0033
+T1RR0033EDIGEN  2019073000:00:08XPRT  XPRTEDICXEDIBKK     930655110   O2EDIGEN      9999

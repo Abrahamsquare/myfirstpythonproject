@@ -1,0 +1,41 @@
+H1RR0039EDIGEN  2019073000:55:38XPRT  XEDIFTP XEDIEDI2    9900022110  F2EDIGEN      0000
+@RPRNT9900022110  930734357       XEDIFTP 201907300055   NOPRINT GEDDIRE EDR        0001
+@D                                                                                  0002
+@D                                                                                  0003
+@D             * * *    E D I     R E J E C T I O N    L O G    * * *               0004
+@D                                                                                  0005
+@DExpeditors EDI Translator Log                                                     0006
+@D                                                                                  0007
+@DDestination:          DIRECT COURIERS                                             0008
+@D                                                                                  0009
+@DEDI Document:         Shipment Status                                             0010
+@D                                                                                  0011
+@DCreate Date / Time:   07/30/2019 00:55                                            0012
+@D                                                                                  0013
+@DExpeditors Branch:    PER     Status Event code:    DLV                           0014
+@D                                                                                  0015
+@D                                                                                  0016
+@D===========  EDI REJECTION LOG  ===========                                       0017
+@D                                                                                  0018
+@DREJECT:  An invalid combination of Status Event DLV, pickup and delivery          0019
+@D         location type SH-IC, and Move Type EXPORT was received on 07/30/2019     0020
+@D         00:55 for Expeditors Reference 9900022110, Carrier Reference/Pro         0021
+@D         Number 2347226, and EDI Transaction ID 2347226201907301554. The          0022
+@D         Shipment Status message has been rejected. Please correct and            0023
+@D         retransmit. If additional information is requested regarding this        0024
+@D         error message, please contact your local Expeditors Transportation       0025
+@D         Manager or Supervisor.                                                   0026
+@D                                                                                  0027
+@DREJECT:  An invalid combination of Expeditors Shipment Reference 9900022110 and   0028
+@D         Move Type EXPORT was received for the Shipment Status message received   0029
+@D         on 07/30/2019 00:55 for Carrier Reference/Pro Number 2347226 and EDI     0030
+@D         Transaction ID 2347226201907301554. Only a valid Expeditors Import       0031
+@D         Reference Number will be accepted with an 'IMPORT' Move Type. The        0032
+@D         Shipment Status message has been rejected. Please correct and            0033
+@D         retransmit.                                                              0034
+@D                                                                                  0035
+@D                                                                                  0036
+@D                                                                                  0037
+@DThe EDIgen file number is: 930734357                                              0038
+@D                                                                                  0039
+T1RR0039EDIGEN  2019073000:55:38XPRT  XEDIFTP XEDIEDI2    9900022110  F2EDIGEN      9999
