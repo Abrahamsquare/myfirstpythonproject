@@ -22,7 +22,8 @@ all_lines = None
 if(os.path.exists(filetounwrap)):
     with open(filetounwrap,'r') as lines:
         all_lines = lines.readlines();
- 
+ #The function needs to be on this line
+
 #writing to unwrapped.txt
     unwrapped = unwrap(all_lines);
     with open(fulloutputpath + 'unwrapped.txt','w') as clean:
@@ -37,6 +38,7 @@ def unwrap(lines):
     cleaned = []
     for line in lines:
         
+        #print(line)
         #implement here
     
     return cleaned;
