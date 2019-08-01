@@ -32,7 +32,7 @@ if(os.path.exists(filetounwrap)):
 
 #Implement
 #function named unwrap
-#I dont understand what the function is creating to do
+#I dont understand what the function is trying to do
 def unwrap(lines):
     cleaned = []
     for line in lines:
