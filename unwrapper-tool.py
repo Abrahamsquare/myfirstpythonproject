@@ -12,7 +12,7 @@ if(os.path.exists(fulloutputpath) is False):
     os.mkdir(fulloutputpath);
 
     
-#C:\Users\Senai\Desktop\expin\sample#1
+#C:\Users\Senai\Desktop\expin\sample#1.txt
 filetounwrap = input('Enter the full path to the file you want to unwrap:');
 
 #a null value
@@ -22,6 +22,7 @@ all_lines = None
 if(os.path.exists(filetounwrap)):
     with open(filetounwrap,'r') as lines:
         all_lines = lines.readlines();
+  #all_lines = the expin
  #The function needs to be on this line
 
 #writing to unwrapped.txt
