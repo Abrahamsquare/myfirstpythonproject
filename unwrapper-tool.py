@@ -2,8 +2,10 @@ import os
 #get the current working directory 
 currentdir = os.getcwd();
 #Created a folder unwrapped in C:\current working directory\
-#NameError: name 'currdir' is not defined
+#NameError: name 'currdir' is not defined ---> [you're getting this error because you didn't change currentdir to currdie on line 3]
 #changed currdir to currentdir
+
+
 fulloutputpath = currdir + '\\unwrapped\\';
 #fulloutputpath = currentdir + '\\unwrapped\\';
 
