@@ -82,12 +82,31 @@ def unwrap(lines):
 
         #    check if it contains any character specified in the filterlist 
         
+            # >> Why are you looking for the character in filterlist ? 
+            # >> Remember that you're looking to see if you can find any element contained in
+            # >> filterlist on the line itself. 
+            # >> So you have to check the left and right side of each line to see if it matches any element in filterlist
+            # >> and if you find it, you have to strip it off the line.
+            # >> Below you're saying if I find @D in filterlist then do something to line, which doesnt make sense
+            # >> because of course @D is in filterlist .... it's been declared in line 60.            
             if '@D' in filterlist:
-                cleaned.append(line.rstrip())
+                cleaned.append(line.rstrip()) # >> You're getting close. rstrip and lstrip can have arguements
+                                              # >> All you have to do is rstrip and lstrip the character you need stripped
+                    
+            # >> You could do this:
+            #
+            #    linesize = len(line) - 1
+            #    leftside = line[0:2]   # This performs a substring from line start to element number 2 of the line
+            #    rightside = line[linesize - 2 :  linesize]  # This performs a substring from the second to the last element
+                                                             # to the last element
+            #    if leftsdie in filterlist:
+            #       do something here ...
+            #    if rightside in filterlist:
+            #       do something here ....
+            
+            
         #    for all characters that you find in the filterlist
-
         #    strip it off line
-
         #    and store the newly stripped line into a list called cleaned
 
     
