@@ -1,4 +1,11 @@
-
+# J.R ->>> This will work as a first python project.
+# The only comment I have is that it's very specific to only one type of file. Meaning that 
+# if the file format ever changed, for example the wrapper length changed, you may need to change the code again.
+#    
+#  The next step (maybe for a new project later on) is to make it flexible so that you have a list of patterns
+#  that you're looking for and removing. If the pattern changes all you have to do is change or add to the list.
+#  By doing this, you're script becomes adaptable to many other types of files if needed.
+#
 
 import os
 
